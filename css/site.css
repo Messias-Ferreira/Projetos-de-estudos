@@ -1,0 +1,145 @@
+html {
+    font-size: 120%;
+}
+
+body {
+    margin: 0;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #851944;
+    border-bottom: .5rem solid #000;
+    font-family: "Open Sans Condensed", "Ariel", sans-serif;
+    text-transform: uppercase;
+    transform-style: preserve-3d
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Open Sans Condensed", "Ariel", sans-serif;
+    clear: both;
+}
+
+.paragrafos p {
+    margin: 2em 0;
+    text-align: justify;
+}
+
+nav a {
+    background-color: #3C1D3D;
+    color: inherit;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: lowercase;
+}
+
+aside {
+    text-align: center;
+    padding: 1.3em;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+.titulo h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+.rodape {
+    padding: 1rem;
+    color: #F2FFFC;
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    text-shadow: 2px 2px #000;
+    background-image: radial-gradient(ellipse at left bottom, rgba(60, 29, 61, 0.8), rgba(60, 29, 61, 0.8) 65%, black 65%, black 70%, transparent 70%, transparent);
+    width: 100%;
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+}
+
+main div {
+    padding: 4rem 0;
+}
+
+.alinha-texto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80ch;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.icones-rede-sociais li {
+    display: inline-block;
+}
+
+.icones-rede-sociais a {
+    height: 4ch;
+    width: 2em;
+    display: block;
+    text-indent: -999999px;
+}
+
+main a {
+    color: #851944;
+}
+
+.github {
+    background-image: url('/img/github.png');
+}
+
+.twitter {
+    background-image: url(/img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(/img/linkedin.png);
+}
+
+aside,
+.imagem {
+    float: right;
+    box-sizing: border-box;
+    border-bottom: 0.7em solid black;
+    border-left: 0.5em solid black;
+}
+
+main {
+    float: left;
+    width: 80%;
+}
+
+.rodape {
+    clear: both;
+}
+
+.imagem {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+aside {
+    position: relative;
+    top: 310px;
+    width: 20%;
+}
+
+footer {
+    width: 100%;
+}
+
+
